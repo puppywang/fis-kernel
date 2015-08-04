@@ -1,16 +1,16 @@
 {
   "name": "fis-kernel-dj",
   "description": "fis kernel.",
-  "version": "2.0.15",
-  "author": "FIS Team <fis@baidu.com>",
-  "homepage": "http://fis.baidu.com/",
+  "version": "2.0.16",
+  "author" : "wangyi",
+  "homepage": "https://github.com/puppywang/fis-kernel",
   "license": "MIT",
   "keywords": [
     "fis"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis-kernel.git"
+    "url": "https://github.com/puppywang/fis-kernel.git"
   },
   "engines": {
     "node": ">= 0.8.0"

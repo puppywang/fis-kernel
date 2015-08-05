@@ -542,6 +542,7 @@ describe('compile(path, debug)', function () {
     it('inline--js',function(){
         //清空前面的config参数
         config.init();
+        fis.project.setProjectRoot(__dirname);
         var f1 = _(__dirname, 'file/embed.js'),
             f2 = _(__dirname, '/e.js'),
             f3 = _(__dirname, 'file/embed/e2.js'),
@@ -931,5 +932,7 @@ describe('compile(path, debug)', function () {
         f1 = compile(f1);
         expect(f1.getContent()).to.equal('!function(){var r=1,a=7,f=0;0>r&&(f=-7);for(;a>f;f++)alert(f)}();');
     });
-
+  
+    it('image srcset support', function () {
+    });
 });
